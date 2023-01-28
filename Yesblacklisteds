@@ -11,6 +11,8 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Please Kill Gui",
 	Callback = function()
-      		print("button pressed")
+      		OrionLib:Destroy()
   	end    
 })
+
+OrionLib:Init()
